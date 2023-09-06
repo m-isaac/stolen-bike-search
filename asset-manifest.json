@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/stolen-bike-search/static/css/main.82d6b743.css",
-    "main.js": "/stolen-bike-search/static/js/main.a9a1254e.js",
-    "static/js/787.d8cb7c0d.chunk.js": "/stolen-bike-search/static/js/787.d8cb7c0d.chunk.js",
+    "main.js": "/stolen-bike-search/static/js/main.59793245.js",
+    "static/js/317.e4dc97c4.chunk.js": "/stolen-bike-search/static/js/317.e4dc97c4.chunk.js",
     "static/media/defaultBikePicture.png": "/stolen-bike-search/static/media/defaultBikePicture.b756ea670dc78d6a4030.png",
     "index.html": "/stolen-bike-search/index.html",
     "main.82d6b743.css.map": "/stolen-bike-search/static/css/main.82d6b743.css.map",
-    "main.a9a1254e.js.map": "/stolen-bike-search/static/js/main.a9a1254e.js.map",
-    "787.d8cb7c0d.chunk.js.map": "/stolen-bike-search/static/js/787.d8cb7c0d.chunk.js.map"
+    "main.59793245.js.map": "/stolen-bike-search/static/js/main.59793245.js.map",
+    "317.e4dc97c4.chunk.js.map": "/stolen-bike-search/static/js/317.e4dc97c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82d6b743.css",
-    "static/js/main.a9a1254e.js"
+    "static/js/main.59793245.js"
   ]
 }
