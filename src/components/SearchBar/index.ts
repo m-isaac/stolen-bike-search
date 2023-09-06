@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import useDebounce from '../utilities/useDebounce';
 import 'react-datepicker/dist/react-datepicker.css';
 import { startOfDay, endOfDay } from 'date-fns';
-import { SearchBarProps } from '.';
+import SearchBar, { SearchBarProps } from './SearchBar';
 
 const useSearchBar = (page: number) => {
   const [query, setQuery] = useState('');
@@ -42,6 +42,7 @@ const useSearchBar = (page: number) => {
   return {
     searchBarProps,
     filteredList,
+    SearchBar,
   };
 };
 

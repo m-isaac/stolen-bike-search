@@ -1,12 +1,10 @@
 import { selectStolenBikeState } from './store/stolenBikeReducer';
 import { useAppSelector } from './store/hooks';
 import { styled } from 'styled-components';
-import SearchBar from './components/SearchBar';
-import useSearchBar from './components/SearchBar/useSearchBar';
+import useSearchBar from './components/SearchBar';
 import { COLOR_PALETTE } from './constants';
 import Grid from './components/Grid';
-import Pagination from './components/Pagination';
-import usePagination from './components/Pagination/usePagination';
+import usePagination from './components/Pagination';
 import LoadingOverlay from './components/LoadingOverlay';
 import NoResultsMessage from './components/NoResultsMessage';
 
@@ -19,8 +17,8 @@ const AppWrapper = styled.div`
 
 function App() {
   const { status, error } = useAppSelector(selectStolenBikeState);
-  const paginationProps = usePagination();
-  const { filteredList, searchBarProps } = useSearchBar(paginationProps.page);
+  const { paginationProps, Pagination } = usePagination();
+  const { filteredList, searchBarProps, SearchBar } = useSearchBar(paginationProps.page);
   const defaultErrorMessage = 'Some error happened. Please try reloading the page';
   const noResultsMessage = 'Your search returned an empty list. Please try changing your filters';
 

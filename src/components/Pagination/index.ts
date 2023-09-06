@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { PaginationProps } from '.';
+import Pagination, { PaginationProps } from './Pagination';
 
 const usePagination = () => {
   const [page, setPage] = useState(1);
@@ -16,7 +16,7 @@ const usePagination = () => {
     handlePrevious,
   };
 
-  return paginationProps;
+  return { paginationProps, Pagination };
 };
 
 export default usePagination;
