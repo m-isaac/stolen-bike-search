@@ -43,7 +43,8 @@ const DetailContainer = styled.div`
   gap: 10px;
   color: ${COLOR_PALETTE.BLUE_5};
   font-weight: 500;
-  &:hover, &:active {
+  &:hover,
+  &:active {
     & > span {
       visibility: visible;
     }

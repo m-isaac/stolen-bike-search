@@ -17,7 +17,9 @@ const Container = styled.div`
   align-items: center;
   opacity: 0.4;
   transform: scale(0.85);
-  transition: opacity, transform 0.15s;
+  transition:
+    opacity,
+    transform 0.15s;
   z-index: 60;
   &:hover,
   &:active {
@@ -36,7 +38,7 @@ const PaginationButton = styled.button`
   font-weight: inherit;
   color: white;
   cursor: pointer;
-  &:disabled{
+  &:disabled {
     background-color: gray;
     cursor: not-allowed;
   }

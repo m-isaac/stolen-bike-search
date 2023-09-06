@@ -6,5 +6,5 @@ export const COLOR_PALETTE = {
   BLUE_2: '#7895CB',
   BLUE_3: '#A0BFE0',
   BLUE_4: '#C5DFF8',
-  BLUE_5: '#196090'
+  BLUE_5: '#196090',
 };

@@ -1,4 +1,5 @@
 # Stolen Bike Index - Carly Coding Challenge
+
 ![Stolen Bike Cases](./illustration.png)
 
 ## Context
@@ -31,7 +32,7 @@ As a police officer:
 
 Create the React application that satisfies all product and tech requirements.
 
-For that, you’ll need to make requests to a publicly-available [API](https://bikeindex.org/documentation/api_v3) to get JSON content and print it on view. 
+For that, you’ll need to make requests to a publicly-available [API](https://bikeindex.org/documentation/api_v3) to get JSON content and print it on view.
 
 The API is known to have some limitations. If you are not able to implement a particular requirement, please provide a description of what and why you could not implements.
 
@@ -51,7 +52,7 @@ Host the website on the service of your choice (zeit, Heroku, AWS, GCloud, ...)
 - React
 - Tests: Jest
 - Code Linter
-- Typescript 
+- Typescript
 - CSSinJS is a plus: styled-components, styled-system, ...
 
 ## Instructions
