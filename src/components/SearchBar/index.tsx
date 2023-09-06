@@ -53,7 +53,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ query, startDate, endDate, setQue
         <label htmlFor="start-date">From</label>
         <DatePicker
           selected={startDate}
-          onChange={(date) => setStartDate(date)}
+          onChange={setStartDate}
           selectsStart
           startDate={startDate}
           endDate={endDate}
@@ -63,7 +63,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ query, startDate, endDate, setQue
         <label htmlFor="end-date">To</label>
         <DatePicker
           selected={endDate}
-          onChange={(date) => setEndDate(date)}
+          onChange={setEndDate}
           selectsEnd
           startDate={startDate}
           endDate={endDate}
